@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name": "ekupovina.com",
+  "version": "1.0.0",
+  "content_scripts":[
+    {
+      "matches": ["https://www.ekupovina.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
